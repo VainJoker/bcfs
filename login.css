@@ -1,0 +1,206 @@
+*
+{
+    margin:0px 0px;     
+    border:0px;
+    padding: 0;
+}
+
+.menu
+{
+    background:#404040; 
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav ul {
+    display: inline-block;
+    list-style-type: none ;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li+li {
+    margin-left: 70px;
+}
+
+
+
+/* ul */
+/* {  */
+/*     list-style-type:none; [> ul前面的点  <] */
+/* } */
+/* .menu */
+/* { */
+/*     background:#404040; [> 导航条背景的颜色  <] 	 */
+/*     text-align: center; */
+/* } */
+/* .nav */
+/* { */
+/*     [> margin:0 auto; 	[> 导航栏文字的位置  <] <] */
+/*     width:700px; 	[> 和文字宽度有关，不能小于文字宽度的总和  <] */
+/*     height:70px; 	[> 导航栏的宽度  <] */
+/*     text-align: center; */
+/* } */
+/* .nav ul */
+/* { */
+/*     list-style-type:none; */
+/*     margin:0; */
+/*     padding:0; */
+/*     [> overflow:hidden; <] */
+/*     display: inline-block; */
+/* } */
+/* .nav ul li */
+/* { */
+/*     float:left; */
+/*     [> display: inline; <] */
+/*     [> text-align: center; <] */
+/* } */
+.nav ul li a:link,a:visited
+{
+    display:block;
+    height: 36px;
+    width:120px;
+    font-weight:bold;
+    font-size: 18px;
+    color:#FFFFFF;
+    background-color:#bebebe;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.nav ul li a:hover,a:active
+{
+    background-color:#cc0000;
+}
+
+.dropdown {
+    float: right ;
+    /* display: inline-block; */
+}
+
+.dropdown span{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    color: tan;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropdown-content a{
+    display: block;
+    color:#123122;
+}
+
+#login_frame {
+    width: 400px;
+    height: 260px;
+    padding: 13px;
+ 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+ 
+    background-color: yellow;
+ 
+    border-radius: 10px;
+    text-align: center;
+}
+ 
+form p > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+ 
+.label_input {
+    font-size: 14px;
+    font-family: 宋体;
+ 
+    width: 65px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+ 
+    color: black;
+    background-color: #3CD8FF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    top: 60px;
+}
+ 
+.text_field {
+    width: 278px;
+    height: 28px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0;
+    position: relative;
+    top: 60px;
+}
+ 
+#btn_login {
+    font-size: 14px;
+    font-family: 宋体;
+ 
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+ 
+    color: black;
+    background-color: #3BD9FF;
+    border-radius: 6px;
+    border: 0;
+ 
+    float: left;
+    position: relative;
+    top: 180px;
+}
+ 
+#forget_pwd {
+    font-size: 14px;
+    font-family: 宋体;
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: black;
+    background-color: #3BD9FF;
+    border-radius: 6px;
+    border: 0;
+    text-decoration: none;
+    position: relative;
+    float: right;
+    top: 180px;
+ 
+}
+ 
+#forget_pwd:hover {
+    color: blue;
+    text-decoration: underline;
+}
+ 
+#login_control {
+    padding: 0 28px;
+}

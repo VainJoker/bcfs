@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="Author" content="VainJoker">
+        <meta name="Keywords" content="LoginPage"/>
+        <meta name="Description" content="LoginPage"/>
+        <link href="login.css" rel="stylesheet">
+        <!-- <script src="<++>.js"></script> -->
+        <title>LoginPage</title>
+    </head>
+    <body>
+        <div class="menu">  <!-- class选择器 -->
+             <div class="nav">
+                        <ul>
+                                <li><a href="#">LoginPage</a></li>
+                                <li><a href="#">LoginPage</a></li>
+                                <li><a href="#">LoginPage</a></li>
+                                <li><a href="#">LoginPage</a></li>
+                                <li><a href="#">LoginPage</a></li>
+                        </ul>
+             </div>
+            <div class="dropdown">
+                <span>dropdown</span>
+                <div class="dropdown-content">
+                    <a href="#">Anchor Text</a>
+                    <a href="#">Anchor Text</a>
+                    <a href="#">Anchor Text</a>
+                    <a href="#">Anchor Text</a>
+                </div>
+            </div>
+
+            <div id="login_frame">
+                <form>
+                <p><label class="label_input">用户名</label><input type="text" id="username" class="text_field"/></p>
+                <p><label class="label_input">密码</label><input type="text" id="password" class="text_field"/></p>
+                <div id="login_control">
+                    <input type="button" id="btn_login" value="登录" οnclick="login();"/>
+                    <a id="forget_pwd" href="forget_pwd.html">忘记密码？</a>
+                </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
